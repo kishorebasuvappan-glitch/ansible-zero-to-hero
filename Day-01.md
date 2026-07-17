@@ -1,8 +1,8 @@
 
 ```markdown
-# Day 1: Ansible Fundamentals and Environment Setup
+### Day 1: Ansible Fundamentals and Environment Setup
 
-## 1. Core Concepts
+###  1. Core Concepts
 - What is Ansible? 
   An open-source IT automation engine used for configuration management, application deployment, intra-service orchestration, and provisioning.
 - Agentless Architecture: Unlike legacy automation tools, Ansible does not require any background agent software or daemons running on the target machines. It connects dynamically via standard secure shell protocols (SSH for Linux/Unix, WinRM or SSH for Windows).
@@ -11,7 +11,7 @@
 
 ---
 
-## 2. Sandbox Architecture
+###  2. Sandbox Architecture
 To practice effectively, the automation topology consists of a dedicated deployment hub controlling two isolated nodes:
 
 - Control Node (Management Hub): The machine where Ansible is installed. Commands and playbooks originate from this node.
@@ -21,7 +21,7 @@ To practice effectively, the automation topology consists of a dedicated deploym
 
 ---
 
-## 3. Step-by-Step Implementation Guide
+### 3. Step-by-Step Implementation Guide
 
 ### Step 3.1: Install Ansible on the Control Node
 Execute the following commands in the terminal of your Control Node to add the official repository and install the binaries:
