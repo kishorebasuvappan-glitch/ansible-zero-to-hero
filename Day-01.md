@@ -1,6 +1,6 @@
 
 ```markdown
-### Day 1: Ansible Fundamentals and Environment Setup
+### **Day 1: Ansible Fundamentals and Environment Setup**
 
 ###  1. Core Concepts
 - What is Ansible? 
