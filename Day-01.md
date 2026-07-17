@@ -1,11 +1,10 @@
-Here is the completely cleaned version of the Day 1 notes. All italicizing stars (`*`) and formatting characters have been removed from the text descriptions so it is pure plain text inside the Markdown structure:
 
 ```markdown
 # Day 1: Ansible Fundamentals and Environment Setup
 
 ## 1. Core Concepts
 - What is Ansible? 
-An open-source IT automation engine used for configuration management, application deployment, intra-service orchestration, and provisioning.
+  An open-source IT automation engine used for configuration management, application deployment, intra-service orchestration, and provisioning.
 - Agentless Architecture: Unlike legacy automation tools, Ansible does not require any background agent software or daemons running on the target machines. It connects dynamically via standard secure shell protocols (SSH for Linux/Unix, WinRM or SSH for Windows).
 - Idempotency: A core design principle of Ansible. Running the same playbook multiple times will yield the exact same system state without duplicating actions (for example, it will not reinstall a package if it is already present).
 - Declarative Paradigm: Written in human-readable YAML, you define the desired final state of the system rather than writing sequential scripts to execute commands manually.
